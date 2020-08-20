@@ -29,3 +29,4 @@ let assertObjectsEqual = function (actual, expected) {
 
 assertObjectsEqual({a:1, b:2, c:3}, {b:2,c:3,a:1})
 assertObjectsEqual({a:1, b:2, c:3}, {b:2,c:3,z:1})
+
