@@ -16,4 +16,6 @@ const middle = function (array) {
   }
 
 }
+
+console.log(middle([1]))
 module.exports =  middle;
