@@ -19,5 +19,5 @@ function countLetters(string) {
   }
   return result
 }
-
+module.exports = countLetters;
 console.log(countLetters("abcda ccccsfdsdf  aaa fsdfdsa fsdfdsfdsefg"))

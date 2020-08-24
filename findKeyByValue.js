@@ -15,6 +15,9 @@ const findKeyByValue = (obj, value) => {
   return undefined
 }
 
+module.exports = findKeyByValue;
+
+
 findKeyByValue({a:1,b:2}, 2)
 
 const bestTVShowsByGenre = { 

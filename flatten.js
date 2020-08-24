@@ -33,6 +33,8 @@ function flatten(array) {
   return result;
 }
 
+module.exports = flatten;
+
 assertArraysEqual(flatten([1, 2, 3, [4, 5, 6], 7, 8]), [1,2,3,4,5,6,7,8])
 assertArraysEqual(flatten([["a","b","c","d"]]), ["a","b","c","d"])
 assertArraysEqual(flatten([["a","b","c","d"], "e", "f"]), ["a","b","c","d","e","f"])
