@@ -3,7 +3,6 @@ const assert = require('chai').assert;
 
 describe("#middle", () => {
   it("returns [] for [1]", () => {
-    const expected = []
     assert.deepEqual([],middle([1]));
   });
   it("returns '[]' for [1, 2]", () => {
